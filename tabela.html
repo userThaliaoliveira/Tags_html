@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela no html</title>
+</head>
+<body>
+    <main>
+        <h1>Tabelas no html</h1>
+
+        <section id="students">
+            <h2>tabela de alunos</h2>
+
+            <table border="1"><!--border cria borda-/><---tag para criar tabela-->
+                <thead><!--define o cabeçalho da tabela-->
+                    <tr>
+                        <th>nome</th><!--celula do cabeçalho-->
+                        <th>email</th>
+                        <th>matricula</th>
+                    </tr>
+                </thead>
+                <tbody><!--corpo da tabela-->
+                    <tr>
+                        <td>carol antonia</td><!--td usado no body-->
+                        <td>carolantonia@gmail.com</td>
+                        <td>34</td>
+                    </tr>
+                    <tr>
+                        <td>maria antonieta</td><!--td usado no body-->
+                        <td>mariaantonieta@gmail.com</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>carlos de andrade</td><!--td usado no body-->
+                        <td>carlosandrade@gmail.com</td>
+                        <td>666</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="finance">
+            <h2>tabela de controle financeiro</h2>
+            <table border="1"><!--border cria borda-/><---tag para criar tabela-->
+                <thead><!--define o cabeçalho da tabela-->
+                    <tr>
+                        <th>data</th><!--celula do cabeçalho-->
+                        <th>tipo</th>
+                        <th>descrição</th>
+                        <th>valor</th>
+                    </tr>
+                </thead>
+                <tbody><!--corpo da tabela-->
+                    <tr>
+                        <td rowspan="2">15/05/2008/</td><!--td usado no body--><!--rowspan mescla as celulas-->
+                        <td colspan="2">despesa</td><!--mesclando colunas-->
+                        <td>R$:29,00</td>
+                    </tr>
+                    <tr>
+                        <td>receita</td>
+                        <td>sorteio</td>
+                        <td>R$:90,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
