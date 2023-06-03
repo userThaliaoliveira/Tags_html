@@ -1,0 +1,44 @@
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px; /*/aredonda os cantos se colocar 150px vira um circulo*/
+}
+#caixa2 {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 50px 80px 100px;
+}
+#caixa3 {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 10px;
+    margin: 10px;
+    -webkit-border-radius: 20px 90px;
+    -moz-border-radius: 20px 90px;
+    border-radius: 20px 90px;
+}
+#caixa4 {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-border-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#caixa5 {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+
+}
+.arredondamento{
+    border-radius: 150px;
+}
