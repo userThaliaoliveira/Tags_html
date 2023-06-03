@@ -1,7 +1,7 @@
 # README - HTML Tags
 
 <div align="center">
-  <img src="https://your-image-url" alt="HTML Tags Logo">
+ <img align="right" alt="thalia-pic" height="100" style="border-radius:50px;" src="https://user-images.githubusercontent.com/96347094/147705579-1ab1a119-49bb-419e-8433-e7ff89bdab83.png">
 </div>
 
 <div align="center">
