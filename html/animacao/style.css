@@ -1,0 +1,57 @@
+/*animações*/
+@-webkit-keyframes animacao-caixa{
+    from { /*estado inicial*/
+        background: red;
+    }
+    to { /*estado final*/
+        background: yellow;
+    }
+}
+@-webkit-keyframes animacao-caixa2{
+    from { /*estado inicial*/
+        background: red;
+        border-radius: 300px;
+    }
+    to { /*estado final*/
+        background: green;
+    }
+}
+@-webkit-keyframes animacao-caixa3{
+    from { /*estado inicial*/
+        background: blue;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+    to { /*estado final*/
+        background: green;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+}
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation-name: animacao-caixa;
+    animation-duration: 5s;
+}
+#caixa2 {
+    width: 300px;
+    height: 300px;
+    background: red;
+    animation-name: animacao-caixa;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    
+}
+#caixa3 {
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    animation: animacao-caixa2 5s 3s 2 alternate;
+}
