@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página principal</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<h2>Login</h2>
+	<form><!--usado para criar um formulario-->
+		Login: <br><!--pular linha-->
+		<input type="text" name="loginTeste"><!--type o tipo text para que possa escrever e name define uma forma de você recuperar os dados
+        que o usuario digitar utilizando a linguagem de programação e usa para passar os dados para uma proxima tela-->
+		<br>
+
+		Senha: <br>
+		<input type="password" name="senha"><!--type o tipo password a senha fica escondida  e name define uma forma de você recuperar os dados
+            que o usuario digitar utilizando a linguagem de programaçãoe usa para passar os dados para uma proxima tela--->
+		<br>
+
+		<input type="button" value="Logar"><!--type o tipo button cria um botão e value define o texto que vai ficar no botão-->
+            <!---se utilizar submit no lugar do type button ele enviara o dado para o banco de dados-->
+
+	</form>
+
+	<form>
+
+	<h2>Cadastre-se</h2>
+	Login:<br>
+	<input type="text" name="login"><br><br>
+
+	sexo: <br>
+	<input type="radio" name="sexo" value="M"> Masculino<br> <!-- type radio gera aquelas olinhas de opções quando ha varias -->
+	<input type="radio" name="sexo" value="F"> Feminino<br><br><br><!---para que vc consiga selecionar apenas uma opção precisa definir o mesmo
+    name para as opções se não vc podera selecionar todas as opções-->
+
+	Interesses<br>
+	<input type="checkbox" name="Interesses"> Futebol<!--type checkbox funciona como aqueles cheklist que fazemos usando
+    ele podera marcar varias opções-->
+	<br>
+	<input type="checkbox" name="Interesses"> Cursos<!--type checkbox funciona como aqueles cheklist que fazemos usando
+        ele podera marcar varias opções-->
+	<br>
+	<input type="checkbox" name="Interesses"> Moda<!--type checkbox funciona como aqueles cheklist que fazemos usando
+        ele podera marcar varias opções-->
+	<br>
+
+	Estado<br><br>
+	<select name="estado"> <!--o select permite que o usuario consiga escolher entre uma lista de itens apenas uma opção
+    baseado em uma lista mas indicado quando se tem uma lista muito grande como abaixo-->
+		<option value="sp">SP</option><!--tag option para gerar as opções-->
+		<option value="mg">MG</option>
+		<option value="rj">RJ</option>
+		<option value="rs">RS</option>
+	</select><br><br>
+
+	Observações: <br>
+	<textarea></textarea><!--- area de texto assim o usuario pode escrever bastante-->
+	<input type="submit" value="Cadastrar"><!--- com o type submit poderia enviar os dados-->
+
+	</form>
+
+
+
+
+	
+</body>
+</html>

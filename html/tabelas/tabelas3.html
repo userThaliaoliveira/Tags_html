@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página principal</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h2>Produtos</h2>
+
+	<table border="2" width="400">
+
+		<tr>
+			<th>Código</th>
+			<th>Produto</th>
+			<th>Preço</th>
+		</tr>
+
+		<tr>
+			
+			<td>001</td>
+			<td>Notebook</td>
+			<td>R$ 2.500,99</td>
+		</tr>
+
+		<tr>
+			
+			<td>002</td>
+			<td>Tablet</td>
+			<td>R$ 999,99</td>
+		</tr>
+
+		<tr>
+			<td rowspan="2">Desconto</td><!--rowspan define a extensão da linha--->
+			<td colspan="2">cupom1 -R$ 10</td><!-- atributo colspan usado para agrupar duas colunas (uma extensão da culuna)--->
+		</tr>
+
+		<tr>
+			<td colspan="2">cupom2 -R$ 12</td><!-- atributo colspan usado para agrupar duas colunas (uma extensão da culuna)--->
+		</tr>
+
+		<tr>
+			<td>Total</td>
+			<td colspan="2">R$ 3.478,98</td><!-- atributo colspan usado para agrupar duas colunas (uma extensão da culuna)--->
+		</tr>
+
+	</table>
+</body>
+</html>
