@@ -1,0 +1,11 @@
+/*Transições*/
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: purple;
+}
+#caixa:hover { /*transição aumentando o tamanho e mudando de cor passando o mouse*/
+    width: 400px;
+    background: pink;
+    transition: width 3s, background 3s;
+}
