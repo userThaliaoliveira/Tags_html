@@ -58,6 +58,12 @@ Se você encontrar alguma informação incorreta, tiver sugestões de melhoria o
 
 <br>
 
+## Documentação Adicional
+
+Para mais informações sobre HTML, consulte a documentação oficial do Mozilla Developer Network (MDN):<a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML Básico - MDN</a>
+
+<br>
+
 ## Licença
 
 Este repositório está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para obter mais informações.
@@ -67,3 +73,4 @@ Este repositório está licenciado sob a Licença MIT. Consulte o arquivo [LICEN
     Ícone por <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> do <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
   </sub>
 </div>
+
